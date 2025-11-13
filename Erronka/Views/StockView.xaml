@@ -1,0 +1,40 @@
+﻿<UserControl x:Class="Erronka.Views.StockView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             Background="White" d:DesignHeight="800" d:DesignWidth="1250">
+
+    <Grid Margin="20">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <TextBlock Text="🧺 Biltegiaren kudeaketa" FontSize="24" FontWeight="Bold" Margin="177,5,92,15"/>
+
+        <DataGrid x:Name="StockGrid"
+                  Grid.Row="1"
+                  AutoGenerateColumns="False"
+                  CanUserAddRows="False"
+                  IsReadOnly="True"
+                  HeadersVisibility="Column"
+                  Margin="0,10">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="ID" Binding="{Binding Id}" Width="60"/>
+                <DataGridTextColumn Header="Nombre" Binding="{Binding Nombre}" Width="*"/>
+                <DataGridTextColumn Header="Categoría" Binding="{Binding Categoria}" Width="150"/>
+                <DataGridTextColumn Header="Precio" Binding="{Binding Precio}" Width="100"/>
+                <DataGridTextColumn Header="Stock" Binding="{Binding Cantidad}" Width="80"/>
+            </DataGrid.Columns>
+        </DataGrid>
+
+        <StackPanel Grid.Row="2" Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,20">
+            <Button Content="➕ Añadir" Width="100" Margin="10"/>
+            <Button Content="✏️ Editar" Width="100" Margin="10"/>
+            <Button Content="🗑 Eliminar" Width="100" Margin="10"/>
+        </StackPanel>
+    </Grid>
+</UserControl>

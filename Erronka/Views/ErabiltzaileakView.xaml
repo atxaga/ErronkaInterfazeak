@@ -1,0 +1,38 @@
+﻿<UserControl x:Class="Erronka.Views.ErabiltzaileakView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             Background="white">
+
+    <Grid Margin="20">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <TextBlock Text="👥 Erabiltzaileak" FontSize="24" FontWeight="Bold" Margin="0,0,0,20"/>
+
+        <DataGrid x:Name="UsersGrid"
+                  Grid.Row="1"
+                  AutoGenerateColumns="False"
+                  CanUserAddRows="False"
+                  IsReadOnly="True"
+                  Margin="0,10">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="ID" Binding="{Binding Id}" Width="60"/>
+                <DataGridTextColumn Header="Izena" Binding="{Binding Izena}" Width="*"/>
+                <DataGridTextColumn Header="Email" Binding="{Binding Email}" Width="200"/>
+                <DataGridTextColumn Header="Rola" Binding="{Binding Rola}" Width="120"/>
+            </DataGrid.Columns>
+        </DataGrid>
+
+        <StackPanel Grid.Row="2" Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,20">
+            <Button Content="➕ Gehitu" Width="100" Margin="10"/>
+            <Button Content="✏️ Aldatu" Width="100" Margin="10"/>
+            <Button Content="🗑 Ezabatu" Width="100" Margin="10"/>
+        </StackPanel>
+    </Grid>
+</UserControl>
+
+
+
