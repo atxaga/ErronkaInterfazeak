@@ -9,7 +9,6 @@
             <RowDefinition Height="Auto"/>
         </Grid.RowDefinitions>
 
-        <!-- 🧾 Tabla del ticket -->
         <DataGrid x:Name="OrderItemsGrid"
                   AutoGenerateColumns="False"
                   CanUserAddRows="False"
@@ -19,18 +18,17 @@
                   FontSize="14"
                   Margin="0,0,0,10">
             <DataGrid.Columns>
-                <DataGridTextColumn Header="Artículo" Binding="{Binding Name}" Width="*"/>
-                <DataGridTextColumn Header="Precio" Binding="{Binding Price}" Width="100"/>
-                <DataGridTextColumn Header="Cant" Binding="{Binding Quantity}" Width="80"/>
-                <DataGridTextColumn Header="Importe" Binding="{Binding Total}" Width="100"/>
+                <DataGridTextColumn Header="Artikuloa" Binding="{Binding izena}" Width="*"/>
+                <DataGridTextColumn Header="Prezioa" Binding="{Binding Prezioa}" Width="100"/>
+                <DataGridTextColumn Header="kantitatea" Binding="{Binding kantitatea}" Width="80"/>
+                <DataGridTextColumn Header="Zenbatekoa" Binding="{Binding zenbatekoa}" Width="100"/>
             </DataGrid.Columns>
         </DataGrid>
 
-        <!-- ⚙️ Botones de control del ticket -->
         <StackPanel Grid.Row="1" Orientation="Horizontal" HorizontalAlignment="Right" Margin="0,10">
-            <Button Content="🆕 Nuevo Ticket" Width="120" Margin="5"/>
-            <Button Content="✏️ Editar Línea" Width="120" Margin="5"/>
-            <Button Content="❌ Eliminar Línea" Width="120" Margin="5"/>
+            <Button Content="🆕 Ticket Berria" Width="120" Margin="5"/>
+            <Button Content="✏️ Aldatu" Width="120" Margin="5"/>
+            <Button Content="❌ Ezeztatu" Width="120" Margin="5"/>
         </StackPanel>
     </Grid>
 </UserControl>

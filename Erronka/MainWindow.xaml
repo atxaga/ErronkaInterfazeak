@@ -7,25 +7,18 @@
         Background="#F2F2F2">
 
     <Grid>
-        <!-- 🧱 Columnas principales -->
+        
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="200"/>
-            <!-- Categorías -->
             <ColumnDefinition Width="*"/>
-            <!-- Ticket -->
             <ColumnDefinition Width="320"/>
-            <!-- Calculadora -->
         </Grid.ColumnDefinitions>
 
-        <!-- 🧱 Filas principales -->
         <Grid.RowDefinitions>
             <RowDefinition Height="*"/>
-            <!-- Zona superior (ticket + calc) -->
             <RowDefinition Height="260"/>
-            <!-- Zona inferior (navegación + productos) -->
         </Grid.RowDefinitions>
 
-        <!-- 🟩 Panel lateral izquierdo: Categorías -->
         <StackPanel Grid.Column="0" VerticalAlignment="Center" HorizontalAlignment="Center">
             <Button Content="📅 Ticket" Width="180" Height="60" Background="#2E3A59" Foreground="White" FontSize="18" Click="Button_Ticket_Click"/>
             <Button Content="📅 Erreserbak" Width="180" Height="60" Background="#2E3A59" Foreground="White" FontSize="18" Click="Button_Erreserbak_Click"/>
@@ -33,25 +26,18 @@
             <Button Content="👥 Erabiltzaileak" Width="180" Height="60" Background="#2E3A59" Foreground="White" FontSize="18" Click="Button_Erabiltzaileak_Click"/>
         </StackPanel>
         
-        
-
-
-        <!-- 🧾 Zona central: Ticket -->
         <ContentControl x:Name="MainContent"
                     Grid.Column="1"
                     Background="White"
                     Margin="10"/>
 
-        <!-- 🔢 Calculadora lateral -->
         <Grid Grid.Column="2" Background="#E6E6E6">
             <Grid.RowDefinitions>
                 <RowDefinition Height="Auto"/>
-                <!-- Botón imprimir -->
                 <RowDefinition Height="*"/>
-                <!-- Calculadora -->
             </Grid.RowDefinitions>
 
-            <Button Content="🖨 Imprimir Ticket" Background="#0078D7" Foreground="White" Height="40" Margin="0,0,0,10"/>
+            <Button Content="🖨 Ticketa inprimatu" Background="#0078D7" Foreground="White" Height="40" Margin="0,0,0,10"/>
 
             <UniformGrid Grid.Row="1" Rows="5" Columns="4" HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
                 <Button Content="CE" Background="#FF6666"/>
@@ -74,16 +60,12 @@
             <TextBox HorizontalAlignment="Center" Margin="0,396,0,0" Grid.Row="1" TextWrapping="Wrap" Text="Emaitza" VerticalAlignment="Top" Width="200" Height="50"/>
         </Grid>
 
-        <!-- 🧭 Parte inferior: Navegación + Productos -->
         <Grid Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="2" Background="#FFFFFF" Margin="10">
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="250"/>
-                <!-- Navegación -->
                 <ColumnDefinition Width="*"/>
-                <!-- Productos -->
             </Grid.ColumnDefinitions>
 
-            <!-- 🧭 Botones de navegación -->
             <StackPanel Grid.Column="0" Grid.RowSpan="2" Background="#2E3A59">
                 <TextBlock Text="Categorías" 
                Foreground="White" FontWeight="Bold" FontSize="16" Margin="0,0,0,10"/>
@@ -103,7 +85,6 @@
                 </ListBox>
             </StackPanel>
 
-            <!-- 🛒 Productos -->
             <ScrollViewer Grid.Column="1" HorizontalScrollBarVisibility="Auto" VerticalScrollBarVisibility="Disabled">
                 <ItemsControl x:Name="ProductList" Margin="10">
                     <ItemsControl.ItemsPanel>

@@ -27,8 +27,9 @@ namespace Erronka.Views
                 {
                     MessageBox.Show($"Ongi etorri, {user.Izena}!", "Login arrakastatsua",
                         MessageBoxButton.OK, MessageBoxImage.Information);
+                    ErreserbakWindow erreserbak = new ErreserbakWindow(user.id);
 
-                    MainWindow main = new MainWindow();
+                    MainWindow main = new MainWindow(user.id);
                     main.Show();
                     this.Close();
                 }

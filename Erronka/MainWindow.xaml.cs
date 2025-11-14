@@ -8,6 +8,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using Erronka.Views;
 
 namespace Erronka
 {
@@ -16,16 +17,18 @@ namespace Erronka
     /// </summary>
     public partial class MainWindow : Window
     {
-        public MainWindow()
+        private int userId;
+        public MainWindow(int loggedUserId)
         {
             InitializeComponent();
-
+            userId = loggedUserId;
             MainContent.Content = new Views.TicketView();
         }
 
         private void Button_Erreserbak_Click(object sender, RoutedEventArgs e)
         {
-            MainContent.Content = new Views.ErreserbakView();
+            ErreserbakWindow win = new ErreserbakWindow(userId);
+            win.Show();
         }
 
         private void Button_Stock_Click(object sender, RoutedEventArgs e)

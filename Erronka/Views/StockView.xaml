@@ -24,17 +24,17 @@
                   Margin="0,10">
             <DataGrid.Columns>
                 <DataGridTextColumn Header="ID" Binding="{Binding Id}" Width="60"/>
-                <DataGridTextColumn Header="Nombre" Binding="{Binding Nombre}" Width="*"/>
-                <DataGridTextColumn Header="Categoría" Binding="{Binding Categoria}" Width="150"/>
-                <DataGridTextColumn Header="Precio" Binding="{Binding Precio}" Width="100"/>
-                <DataGridTextColumn Header="Stock" Binding="{Binding Cantidad}" Width="80"/>
+                <DataGridTextColumn Header="Izena" Binding="{Binding Izena}" Width="*"/>
+                <DataGridTextColumn Header="Kategoria" Binding="{Binding Kategoria}" Width="150"/>
+                <DataGridTextColumn Header="Prezioa" Binding="{Binding Prezioa}" Width="100"/>
+                <DataGridTextColumn Header="Stock" Binding="{Binding Stocka}" Width="80"/>
             </DataGrid.Columns>
         </DataGrid>
 
         <StackPanel Grid.Row="2" Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,20">
-            <Button Content="➕ Añadir" Width="100" Margin="10"/>
-            <Button Content="✏️ Editar" Width="100" Margin="10"/>
-            <Button Content="🗑 Eliminar" Width="100" Margin="10"/>
+            <Button Content="➕ Gehitu" Width="100" Margin="10"/>
+            <Button Content="✏️ Aldatu" Width="100" Margin="10"/>
+            <Button Content="🗑 Ezabatu" Width="100" Margin="10"/>
         </StackPanel>
     </Grid>
 </UserControl>
