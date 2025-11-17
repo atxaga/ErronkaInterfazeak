@@ -43,4 +43,13 @@ namespace Erronka.Models
         [MaxLength(20)]
         public string Rola { get; set; }
     }
+
+    public class Ticket
+    {
+        public int id { get; set; }
+        public string Izena { get; set; }
+        public decimal Prezioa { get; set; }
+        public int Kantitatea { get; set; }
+        public decimal Totala => Prezioa * Kantitatea;
+    }
 }

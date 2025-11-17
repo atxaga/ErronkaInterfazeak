@@ -37,27 +37,27 @@
                 <RowDefinition Height="*"/>
             </Grid.RowDefinitions>
 
-            <Button Content="🖨 Ticketa inprimatu" Background="#0078D7" Foreground="White" Height="40" Margin="0,0,0,10"/>
+            <Button Content="🖨 Ticketa inprimatu" Background="#0078D7" Foreground="White" Height="40" Margin="0,0,0,10" Click="Button_Imprimir_Click"/>
 
             <UniformGrid Grid.Row="1" Rows="5" Columns="4" HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
-                <Button Content="CE" Background="#FF6666"/>
+                <Button Content="CE" Background="#FF6666" Click="Button_CE_Click"/>
                 <Button Content="/" />
                 <Button Content="*" />
                 <Button Content="-" />
-                <Button Content="7"/>
-                <Button Content="8"/>
-                <Button Content="9"/>
+                <Button Content="7" Click="Zenbakia_Click"/>
+                <Button Content="8" Click="Zenbakia_Click"/>
+                <Button Content="9" Click="Zenbakia_Click"/>
                 <Button Content="+"/>
-                <Button Content="4"/>
-                <Button Content="5"/>
-                <Button Content="6"/>
-                <Button Content="="/>
-                <Button Content="1"/>
-                <Button Content="2"/>
-                <Button Content="3"/>
-                <Button Content="0"/>
+                <Button Content="4" Click="Zenbakia_Click"/>
+                <Button Content="5" Click="Zenbakia_Click"/>
+                <Button Content="6" Click="Zenbakia_Click"/>
+                <Button Content="=" Click="KantitateaAldatu"/>
+                <Button Content="1" Click="Zenbakia_Click"/>
+                <Button Content="2" Click="Zenbakia_Click"/>
+                <Button Content="3" Click="Zenbakia_Click"/>
+                <Button Content="0" Click="Zenbakia_Click"/>
             </UniformGrid>
-            <TextBox HorizontalAlignment="Center" Margin="0,396,0,0" Grid.Row="1" TextWrapping="Wrap" Text="Emaitza" VerticalAlignment="Top" Width="200" Height="50"/>
+            <TextBox x:Name="Emaitza" HorizontalAlignment="Center" Margin="0,396,0,0" Grid.Row="1" TextWrapping="Wrap" VerticalAlignment="Top" Width="200" Height="50"/>
         </Grid>
 
         <Grid Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="2" Background="#FFFFFF" Margin="10">
@@ -73,6 +73,7 @@
                      Background="#1E2A44"
                      Foreground="White"
                      BorderThickness="0"
+                     SelectionChanged="CategoryList_SelectionChanged"
                      ScrollViewer.VerticalScrollBarVisibility="Auto">
                     <ListBoxItem Content="CAFEAK"/>
                     <ListBoxItem Content="GARAGARDOAK"/>
@@ -94,7 +95,7 @@
                     </ItemsControl.ItemsPanel>
                     <ItemsControl.ItemTemplate>
                         <DataTemplate>
-                            <StackPanel Width="120" Margin="5" Cursor="Hand">
+                            <StackPanel Width="120" Margin="5" Cursor="Hand" MouseDown="Produktua_Click">
                                 <Image Source="{Binding Image}" Height="80" Width="80" Stretch="UniformToFill"/>
                                 <TextBlock Text="{Binding Name}" TextAlignment="Center" Margin="0,5,0,0"/>
                             </StackPanel>

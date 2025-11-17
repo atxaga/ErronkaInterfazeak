@@ -106,5 +106,10 @@ namespace Erronka.Views
             }
         }
 
+        private void TurnoChanged(object sender, RoutedEventArgs e)
+        {
+            ActualizarMesas();
+        }
+
     }
 }

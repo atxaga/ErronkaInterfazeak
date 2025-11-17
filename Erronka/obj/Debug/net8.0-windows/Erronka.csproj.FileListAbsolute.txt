@@ -264,3 +264,14 @@ D:\ErronkaInterfazeak\Erronka\obj\Debug\net8.0-windows\refint\Erronka.dll
 D:\ErronkaInterfazeak\Erronka\obj\Debug\net8.0-windows\Erronka.pdb
 D:\ErronkaInterfazeak\Erronka\obj\Debug\net8.0-windows\Erronka.genruntimeconfig.cache
 D:\ErronkaInterfazeak\Erronka\obj\Debug\net8.0-windows\ref\Erronka.dll
+D:\ErronkaInterfazeak\Erronka\bin\Debug\net8.0-windows\PdfSharp.BarCodes.dll
+D:\ErronkaInterfazeak\Erronka\bin\Debug\net8.0-windows\PdfSharp.Charting.dll
+D:\ErronkaInterfazeak\Erronka\bin\Debug\net8.0-windows\PdfSharp.Cryptography.dll
+D:\ErronkaInterfazeak\Erronka\bin\Debug\net8.0-windows\PdfSharp.Quality.dll
+D:\ErronkaInterfazeak\Erronka\bin\Debug\net8.0-windows\PdfSharp.Shared.dll
+D:\ErronkaInterfazeak\Erronka\bin\Debug\net8.0-windows\PdfSharp.Snippets.dll
+D:\ErronkaInterfazeak\Erronka\bin\Debug\net8.0-windows\PdfSharp.System.dll
+D:\ErronkaInterfazeak\Erronka\bin\Debug\net8.0-windows\PdfSharp.WPFonts.dll
+D:\ErronkaInterfazeak\Erronka\bin\Debug\net8.0-windows\PdfSharp.dll
+D:\ErronkaInterfazeak\Erronka\bin\Debug\net8.0-windows\System.Security.Cryptography.Pkcs.dll
+D:\ErronkaInterfazeak\Erronka\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\System.Security.Cryptography.Pkcs.dll
