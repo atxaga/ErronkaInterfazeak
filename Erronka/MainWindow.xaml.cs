@@ -114,22 +114,23 @@ namespace Erronka
 
         private void KantitateaAldatu(object sender, RoutedEventArgs e)
         {
+            // StockViewrako kodea
+            if (int.TryParse(Emaitza.Text, out int number))
+            {
+                
+                this.Tag = number;
+            }
 
-            var number = int.Parse(Emaitza.Text);
-            var main = Application.Current.Windows
-                          .OfType<MainWindow>()
-                          .FirstOrDefault();
-
+            // TicketViewrako kodea
+            var main = Application.Current.Windows.OfType<MainWindow>().FirstOrDefault();
             if (main != null && main.ticketView != null)
             {
                 var selected = main.ticketView.OrderItemsGrid.SelectedItem as Ticket;
                 if (selected != null)
                 {
-                    int nuevaCantidad = number;
-                    main.ticketView.AldatuKantitatea(nuevaCantidad);
+                    main.ticketView.AldatuKantitatea(number);
                 }
             }
-
         }
 
         private void Button_CE_Click(object sender, RoutedEventArgs e)
@@ -144,5 +145,28 @@ namespace Erronka
                 ticketView.ImprimatuTicket();
             }
         }
+
+        public int Kalkulatu(string datoInicial)
+        {
+            Emaitza.Text = datoInicial;
+            Tag = null;
+
+            while (Tag == null)
+            {
+                DoEvents();
+               Thread.Sleep(50);
+            }
+
+            return Convert.ToInt32(Tag);
+        }
+
+        void DoEvents()
+        {
+            Application.Current.Dispatcher.Invoke(
+                System.Windows.Threading.DispatcherPriority.Background,
+                new Action(delegate { })
+            );
+        }
+
     }
 }

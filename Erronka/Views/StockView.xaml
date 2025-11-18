@@ -23,7 +23,8 @@
           HeadersVisibility="Column"
           Margin="0,10"
           ScrollViewer.VerticalScrollBarVisibility="Auto"
-          ScrollViewer.HorizontalScrollBarVisibility="Auto">
+          ScrollViewer.HorizontalScrollBarVisibility="Auto"
+          MouseDoubleClick="StockGrid_MouseDoubleClick">
             <DataGrid.Columns>
                 <DataGridTextColumn Header="ID" Binding="{Binding id}" Width="60"/>
                 <DataGridTextColumn Header="Izena" Binding="{Binding izena}" Width="*"/>
@@ -33,10 +34,11 @@
             </DataGrid.Columns>
         </DataGrid>
 
+
         <StackPanel Grid.Row="2" Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,20">
-            <Button Content="➕ Gehitu" Width="100" Margin="10"/>
-            <Button Content="✏️ Aldatu" Width="100" Margin="10"/>
-            <Button Content="🗑 Ezabatu" Width="100" Margin="10"/>
+            <Button Content="➕ Gehitu" Width="100" Margin="10" Click="Button_Gehitu_Click"/>
+            <Button Content="✏️ Aldatu" Width="100" Margin="10" Click="Button_Aldatu_Click"/>
+            <Button Content="🗑 Ezabatu" Width="100" Margin="10" Click="Button_Ezabatu_Click"/>
         </StackPanel>
     </Grid>
 </UserControl>

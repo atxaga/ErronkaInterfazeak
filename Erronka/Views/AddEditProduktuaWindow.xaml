@@ -1,0 +1,31 @@
+﻿<Window x:Class="Erronka.Views.AddEditProduktuaWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Produktua" Height="350" Width="400"
+        WindowStartupLocation="CenterScreen">
+
+    <Grid Margin="20">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <StackPanel>
+            <TextBlock Text="Izena:"/>
+            <TextBox x:Name="TxtIzena"/>
+
+            <TextBlock Text="Kategoria:" Margin="0,10,0,0"/>
+            <TextBox x:Name="TxtKategoria"/>
+
+            <TextBlock Text="Prezioa:" Margin="0,10,0,0"/>
+            <TextBox x:Name="TxtPrezioa"/>
+
+            <TextBlock Text="Stock:" Margin="0,10,0,0"/>
+            <TextBox x:Name="TxtStock"/>
+        </StackPanel>
+
+        <Button Content="Gorde" Grid.Row="1" Height="40"
+                Background="#2E3A59" Foreground="White"
+                Click="Gorde_Click"/>
+    </Grid>
+</Window>
