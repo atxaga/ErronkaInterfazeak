@@ -16,7 +16,6 @@ namespace Erronka.Views
 
             if (_produktua != null)
             {
-                // Modo editar
                 TxtIzena.Text = produktua.izena;
                 TxtKategoria.Text = produktua.kategoria;
                 TxtPrezioa.Text = produktua.prezioa.ToString();
@@ -28,12 +27,10 @@ namespace Erronka.Views
         {
             if (_produktua == null)
             {
-                // Crear nuevo
                 _produktua = new Produktua();
                 _context.Produktuak.Add(_produktua);
             }
 
-            // Guardar datos
             _produktua.izena = TxtIzena.Text;
             _produktua.kategoria = TxtKategoria.Text;
 

@@ -277,3 +277,5 @@ D:\ErronkaInterfazeak\Erronka\bin\Debug\net8.0-windows\System.Security.Cryptogra
 D:\ErronkaInterfazeak\Erronka\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\System.Security.Cryptography.Pkcs.dll
 D:\ErronkaInterfazeak\Erronka\obj\Debug\net8.0-windows\Views\AddEditProduktuaWindow.baml
 D:\ErronkaInterfazeak\Erronka\obj\Debug\net8.0-windows\Views\AddEditProduktuaWindow.g.cs
+D:\ErronkaInterfazeak\Erronka\obj\Debug\net8.0-windows\Views\AddEditUserWindow.baml
+D:\ErronkaInterfazeak\Erronka\obj\Debug\net8.0-windows\Views\AddEditUserWindow.g.cs

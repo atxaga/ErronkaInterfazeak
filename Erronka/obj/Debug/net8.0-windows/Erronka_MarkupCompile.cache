@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP;WINDOWS;WINDOWS7_0;NET5_0_OR_GREATER;NET6_0_OR_GREATER;NET7_0_OR_GREATER;NET8_0_OR_GREATER;NETCOREAPP3_0_OR_GREATER;NETCOREAPP3_1_OR_GREATER;WINDOWS7_0_OR_GREATER
 D:\ErronkaInterfazeak\Erronka\App.xaml
-71870475493
+8199351544
 
-331345018488
+34-937877041
 221226573474
-MainWindow.xaml;Views\AddEditProduktuaWindow.xaml;Views\ErabiltzaileakView.xaml;Views\Erreserbak.xaml;Views\LoginView.xaml;Views\StockView.xaml;Views\TicketView.xaml;
+MainWindow.xaml;Views\AddEditProduktuaWindow.xaml;Views\AddEditUserWindow.xaml;Views\ErabiltzaileakView.xaml;Views\Erreserbak.xaml;Views\LoginView.xaml;Views\StockView.xaml;Views\TicketView.xaml;
 
 False
 
