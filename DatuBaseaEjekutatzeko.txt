@@ -1,0 +1,86 @@
+-- ===============================
+-- Crear tablas
+-- ===============================
+
+CREATE TABLE IF NOT EXISTS "Erabiltzaileak" (
+    id SERIAL PRIMARY KEY,
+    izena VARCHAR(50) NOT NULL,
+    pasahitza VARCHAR(255) NOT NULL,
+    rola VARCHAR(20) NOT NULL
+);
+
+CREATE TABLE IF NOT EXISTS "Erreserbak" (
+    id SERIAL PRIMARY KEY,
+    mahi_id INTEGER,
+    erabiltzaile_id INTEGER,
+    data DATE NOT NULL,
+    mota VARCHAR(10) NOT NULL,
+    izena TEXT NOT NULL
+);
+
+CREATE TABLE IF NOT EXISTS "Produktuak" (
+    id SERIAL PRIMARY KEY,
+    izena VARCHAR(100) NOT NULL,
+    prezioa NUMERIC NOT NULL,
+    stock INTEGER NOT NULL,
+    kategoria VARCHAR(50) NOT NULL
+);
+
+-- ===============================
+-- Insertar datos iniciales
+-- ===============================
+
+INSERT INTO "Erabiltzaileak" (id, Izena, Pasahitza, Rola) VALUES
+(1, 'admin', '1234', 'admin'),
+(2, 'user', '1234', 'user');
+
+INSERT INTO produktuak (izena, prezioa, stock, kategoria) VALUES
+-- CAFEAK
+('Kafea hutsa', 1.20, 100, 'CAFEAK'),
+('Kafe ebakia', 1.30, 100, 'CAFEAK'),
+('Kafe esnea', 1.40, 100, 'CAFEAK'),
+('Eskaputxinoa', 1.60, 100, 'CAFEAK'),
+('Kafe irlandesa', 3.50, 50, 'CAFEAK'),
+
+-- GARAGARDOAK
+('Garagardoa txikia', 1.80, 100, 'GARAGARDOAK'),
+('Garagardoa handia', 2.50, 100, 'GARAGARDOAK'),
+('Radler', 2.20, 100, 'GARAGARDOAK'),
+('Garagardo 0.0', 2.00, 80, 'GARAGARDOAK'),
+
+-- IZOZKIAK
+('Izozki xanpurrado', 1.20, 50, 'IZOZKIAK'),
+('Banilla izozkia', 1.50, 50, 'IZOZKIAK'),
+('Txokolate izozkia', 1.50, 50, 'IZOZKIAK'),
+('Martini izozkia', 2.00, 50, 'IZOZKIAK'),
+
+-- LIKOREAK
+('Patxarana', 2.00, 100, 'LIKOREAK'),
+('Baileys', 2.50, 80, 'LIKOREAK'),
+('Whisky', 3.00, 80, 'LIKOREAK'),
+('Vodka', 3.00, 80, 'LIKOREAK'),
+
+-- SNAKS
+('Patatak', 1.20, 200, 'SNAKS'),
+('Fruitu lehorrak', 1.00, 200, 'SNAKS'),
+('Kikos', 1.00, 200, 'SNAKS'),
+('Txitxirioak', 1.20, 200, 'SNAKS'),
+
+-- REFRESKOAK
+('Kola lata', 1.50, 100, 'REFRESKOAK'),
+('Laranja lata', 1.50, 100, 'REFRESKOAK'),
+('Lima-limon lata', 1.50, 100, 'REFRESKOAK'),
+('Nestea', 1.80, 80, 'REFRESKOAK'),
+('Aqua 0.5L', 1.00, 80, 'REFRESKOAK'),
+
+-- VARIOS
+('Txokolatina', 1.00, 100, 'VARIOS'),
+('Gominolak', 1.20, 100, 'VARIOS'),
+('Sandwich misto', 2.50, 50, 'VARIOS'),
+('Bokata txikia', 2.00, 50, 'VARIOS'),
+
+-- ARDOAK
+('Ardo beltza kopa', 2.20, 80, 'ARDOAK'),
+('Ardo zuri kopa', 2.20, 80, 'ARDOAK'),
+('Txakoli kopa', 2.50, 80, 'ARDOAK'),
+('Crianza kopa', 2.50, 60, 'ARDOAK');
