@@ -1,6 +1,3 @@
--- ===============================
--- Crear tablas
--- ===============================
 
 CREATE TABLE IF NOT EXISTS "Erabiltzaileak" (
     id SERIAL PRIMARY KEY,
@@ -26,15 +23,12 @@ CREATE TABLE IF NOT EXISTS "Produktuak" (
     kategoria VARCHAR(50) NOT NULL
 );
 
--- ===============================
--- Insertar datos iniciales
--- ===============================
 
 INSERT INTO "Erabiltzaileak" (id, Izena, Pasahitza, Rola) VALUES
 (1, 'admin', '1234', 'admin'),
 (2, 'user', '1234', 'user');
 
-INSERT INTO produktuak (izena, prezioa, stock, kategoria) VALUES
+INSERT INTO "Produktuak" (izena, prezioa, stock, kategoria) VALUES
 -- CAFEAK
 ('Kafea hutsa', 1.20, 100, 'CAFEAK'),
 ('Kafe ebakia', 1.30, 100, 'CAFEAK'),
