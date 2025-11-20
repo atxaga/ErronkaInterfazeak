@@ -17,9 +17,9 @@ namespace Erronka.Views
 
             if (_user != null)
             {
-                TxtIzena.Text = _user.Izena;
-                TxtPasahitza.Password = _user.Pasahitza;
-                CbRola.Text = _user.Rola;
+                TxtIzena.Text = _user.izena;
+                TxtPasahitza.Password = _user.pasahitza;
+                CbRola.Text = _user.rola;
             }
         }
 
@@ -31,9 +31,9 @@ namespace Erronka.Views
                 _context.Erabiltzaileak.Add(_user);
             }
 
-            _user.Izena = TxtIzena.Text;
-            _user.Pasahitza = TxtPasahitza.Password;
-            _user.Rola = (CbRola.SelectedItem as ComboBoxItem)?.Content.ToString();
+            _user.izena = TxtIzena.Text;
+            _user.pasahitza = TxtPasahitza.Password;
+            _user.rola = (CbRola.SelectedItem as ComboBoxItem)?.Content.ToString();
 
             _context.SaveChanges();
 

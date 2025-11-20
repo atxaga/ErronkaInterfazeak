@@ -17,8 +17,8 @@ namespace Erronka.Data
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<Erabiltzailea>().HasData(
-                new Erabiltzailea { id = 1, Izena = "admin", Pasahitza = "1234", Rola = "admin" },
-                new Erabiltzailea { id = 2, Izena = "usuario", Pasahitza = "1234", Rola = "user" }
+                new Erabiltzailea { id = 1, izena = "admin", pasahitza = "1234", rola = "admin" },
+                new Erabiltzailea { id = 2, izena = "user", pasahitza = "1234", rola = "user" }
             );
 
       

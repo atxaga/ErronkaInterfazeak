@@ -1,74 +1,94 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\ErronkaInterfazeak\\Erronka\\",
+  "WorkspaceRootPath": "D:\\Iker\\Desktop\\ErronkaInterfazeak\\Erronka\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B3C6FC54-9FDE-4733-9FD6-A7D9A8134897}|Erronka.csproj|d:\\erronkainterfazeak\\erronka\\views\\erabiltzaileakview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{B3C6FC54-9FDE-4733-9FD6-A7D9A8134897}|Erronka.csproj|solutionrelative:views\\erabiltzaileakview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B3C6FC54-9FDE-4733-9FD6-A7D9A8134897}|Erronka.csproj|d:\\erronkainterfazeak\\erronka\\views\\addedituserwindow.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{B3C6FC54-9FDE-4733-9FD6-A7D9A8134897}|Erronka.csproj|solutionrelative:views\\addedituserwindow.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B3C6FC54-9FDE-4733-9FD6-A7D9A8134897}|Erronka.csproj|d:\\erronkainterfazeak\\erronka\\models\\models.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B3C6FC54-9FDE-4733-9FD6-A7D9A8134897}|Erronka.csproj|solutionrelative:models\\models.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B3C6FC54-9FDE-4733-9FD6-A7D9A8134897}|Erronka.csproj|d:\\erronkainterfazeak\\erronka\\views\\stockview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B3C6FC54-9FDE-4733-9FD6-A7D9A8134897}|Erronka.csproj|solutionrelative:views\\stockview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B3C6FC54-9FDE-4733-9FD6-A7D9A8134897}|Erronka.csproj|d:\\erronkainterfazeak\\erronka\\views\\stockview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{B3C6FC54-9FDE-4733-9FD6-A7D9A8134897}|Erronka.csproj|solutionrelative:views\\stockview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B3C6FC54-9FDE-4733-9FD6-A7D9A8134897}|Erronka.csproj|d:\\erronkainterfazeak\\erronka\\views\\erreserbak.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{B3C6FC54-9FDE-4733-9FD6-A7D9A8134897}|Erronka.csproj|solutionrelative:views\\erreserbak.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B3C6FC54-9FDE-4733-9FD6-A7D9A8134897}|Erronka.csproj|d:\\erronkainterfazeak\\erronka\\views\\ticketview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{B3C6FC54-9FDE-4733-9FD6-A7D9A8134897}|Erronka.csproj|solutionrelative:views\\ticketview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B3C6FC54-9FDE-4733-9FD6-A7D9A8134897}|Erronka.csproj|d:\\erronkainterfazeak\\erronka\\views\\addeditproduktuawindow.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{B3C6FC54-9FDE-4733-9FD6-A7D9A8134897}|Erronka.csproj|solutionrelative:views\\addeditproduktuawindow.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B3C6FC54-9FDE-4733-9FD6-A7D9A8134897}|Erronka.csproj|d:\\erronkainterfazeak\\erronka\\views\\addeditproduktuawindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B3C6FC54-9FDE-4733-9FD6-A7D9A8134897}|Erronka.csproj|solutionrelative:views\\addeditproduktuawindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B3C6FC54-9FDE-4733-9FD6-A7D9A8134897}|Erronka.csproj|d:\\erronkainterfazeak\\erronka\\views\\addedituserwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B3C6FC54-9FDE-4733-9FD6-A7D9A8134897}|Erronka.csproj|d:\\iker\\desktop\\erronkainterfazeak\\erronka\\views\\addedituserwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B3C6FC54-9FDE-4733-9FD6-A7D9A8134897}|Erronka.csproj|solutionrelative:views\\addedituserwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B3C6FC54-9FDE-4733-9FD6-A7D9A8134897}|Erronka.csproj|d:\\erronkainterfazeak\\erronka\\views\\erabiltzaileakview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B3C6FC54-9FDE-4733-9FD6-A7D9A8134897}|Erronka.csproj|d:\\iker\\desktop\\erronkainterfazeak\\erronka\\views\\erabiltzaileakview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B3C6FC54-9FDE-4733-9FD6-A7D9A8134897}|Erronka.csproj|solutionrelative:views\\erabiltzaileakview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B3C6FC54-9FDE-4733-9FD6-A7D9A8134897}|Erronka.csproj|d:\\erronkainterfazeak\\erronka\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B3C6FC54-9FDE-4733-9FD6-A7D9A8134897}|Erronka.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B3C6FC54-9FDE-4733-9FD6-A7D9A8134897}|Erronka.csproj|d:\\iker\\desktop\\erronkainterfazeak\\erronka\\views\\erabiltzaileakview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{B3C6FC54-9FDE-4733-9FD6-A7D9A8134897}|Erronka.csproj|solutionrelative:views\\erabiltzaileakview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B3C6FC54-9FDE-4733-9FD6-A7D9A8134897}|Erronka.csproj|d:\\erronkainterfazeak\\erronka\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{B3C6FC54-9FDE-4733-9FD6-A7D9A8134897}|Erronka.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{B3C6FC54-9FDE-4733-9FD6-A7D9A8134897}|Erronka.csproj|d:\\iker\\desktop\\erronkainterfazeak\\erronka\\views\\addedituserwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{B3C6FC54-9FDE-4733-9FD6-A7D9A8134897}|Erronka.csproj|solutionrelative:views\\addedituserwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B3C6FC54-9FDE-4733-9FD6-A7D9A8134897}|Erronka.csproj|d:\\erronkainterfazeak\\erronka\\data\\databasecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B3C6FC54-9FDE-4733-9FD6-A7D9A8134897}|Erronka.csproj|solutionrelative:data\\databasecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B3C6FC54-9FDE-4733-9FD6-A7D9A8134897}|Erronka.csproj|d:\\iker\\desktop\\erronkainterfazeak\\erronka\\models\\models.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3C6FC54-9FDE-4733-9FD6-A7D9A8134897}|Erronka.csproj|solutionrelative:models\\models.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B3C6FC54-9FDE-4733-9FD6-A7D9A8134897}|Erronka.csproj|d:\\erronkainterfazeak\\erronka\\views\\ticketview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B3C6FC54-9FDE-4733-9FD6-A7D9A8134897}|Erronka.csproj|solutionrelative:views\\ticketview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B3C6FC54-9FDE-4733-9FD6-A7D9A8134897}|Erronka.csproj|d:\\iker\\desktop\\erronkainterfazeak\\erronka\\migrations\\20251120151915_initialcreate.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3C6FC54-9FDE-4733-9FD6-A7D9A8134897}|Erronka.csproj|solutionrelative:migrations\\20251120151915_initialcreate.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B3C6FC54-9FDE-4733-9FD6-A7D9A8134897}|Erronka.csproj|d:\\erronkainterfazeak\\erronka\\views\\erreserbak.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B3C6FC54-9FDE-4733-9FD6-A7D9A8134897}|Erronka.csproj|d:\\iker\\desktop\\erronkainterfazeak\\erronka\\views\\erreserbak.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B3C6FC54-9FDE-4733-9FD6-A7D9A8134897}|Erronka.csproj|solutionrelative:views\\erreserbak.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B3C6FC54-9FDE-4733-9FD6-A7D9A8134897}|Erronka.csproj|d:\\erronkainterfazeak\\erronka\\views\\loginview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{B3C6FC54-9FDE-4733-9FD6-A7D9A8134897}|Erronka.csproj|d:\\iker\\desktop\\erronkainterfazeak\\erronka\\migrations\\20251120151915_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3C6FC54-9FDE-4733-9FD6-A7D9A8134897}|Erronka.csproj|solutionrelative:migrations\\20251120151915_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3C6FC54-9FDE-4733-9FD6-A7D9A8134897}|Erronka.csproj|d:\\iker\\desktop\\erronkainterfazeak\\erronka\\migrations\\databasecontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3C6FC54-9FDE-4733-9FD6-A7D9A8134897}|Erronka.csproj|solutionrelative:migrations\\databasecontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3C6FC54-9FDE-4733-9FD6-A7D9A8134897}|Erronka.csproj|d:\\iker\\desktop\\erronkainterfazeak\\erronka\\data\\databasecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3C6FC54-9FDE-4733-9FD6-A7D9A8134897}|Erronka.csproj|solutionrelative:data\\databasecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3C6FC54-9FDE-4733-9FD6-A7D9A8134897}|Erronka.csproj|d:\\iker\\desktop\\erronkainterfazeak\\erronka\\views\\loginview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3C6FC54-9FDE-4733-9FD6-A7D9A8134897}|Erronka.csproj|solutionrelative:views\\loginview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3C6FC54-9FDE-4733-9FD6-A7D9A8134897}|Erronka.csproj|d:\\iker\\desktop\\erronkainterfazeak\\erronka\\views\\loginview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{B3C6FC54-9FDE-4733-9FD6-A7D9A8134897}|Erronka.csproj|solutionrelative:views\\loginview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3C6FC54-9FDE-4733-9FD6-A7D9A8134897}|Erronka.csproj|d:\\iker\\desktop\\erronkainterfazeak\\erronka\\views\\erreserbak.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{B3C6FC54-9FDE-4733-9FD6-A7D9A8134897}|Erronka.csproj|solutionrelative:views\\erreserbak.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3C6FC54-9FDE-4733-9FD6-A7D9A8134897}|Erronka.csproj|d:\\iker\\desktop\\erronkainterfazeak\\erronka\\views\\addedituserwindow.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{B3C6FC54-9FDE-4733-9FD6-A7D9A8134897}|Erronka.csproj|solutionrelative:views\\addedituserwindow.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3C6FC54-9FDE-4733-9FD6-A7D9A8134897}|Erronka.csproj|d:\\iker\\desktop\\erronkainterfazeak\\erronka\\views\\stockview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3C6FC54-9FDE-4733-9FD6-A7D9A8134897}|Erronka.csproj|solutionrelative:views\\stockview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3C6FC54-9FDE-4733-9FD6-A7D9A8134897}|Erronka.csproj|d:\\iker\\desktop\\erronkainterfazeak\\erronka\\views\\stockview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{B3C6FC54-9FDE-4733-9FD6-A7D9A8134897}|Erronka.csproj|solutionrelative:views\\stockview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3C6FC54-9FDE-4733-9FD6-A7D9A8134897}|Erronka.csproj|d:\\iker\\desktop\\erronkainterfazeak\\erronka\\views\\ticketview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{B3C6FC54-9FDE-4733-9FD6-A7D9A8134897}|Erronka.csproj|solutionrelative:views\\ticketview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3C6FC54-9FDE-4733-9FD6-A7D9A8134897}|Erronka.csproj|d:\\iker\\desktop\\erronkainterfazeak\\erronka\\views\\addeditproduktuawindow.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{B3C6FC54-9FDE-4733-9FD6-A7D9A8134897}|Erronka.csproj|solutionrelative:views\\addeditproduktuawindow.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3C6FC54-9FDE-4733-9FD6-A7D9A8134897}|Erronka.csproj|d:\\iker\\desktop\\erronkainterfazeak\\erronka\\views\\addeditproduktuawindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3C6FC54-9FDE-4733-9FD6-A7D9A8134897}|Erronka.csproj|solutionrelative:views\\addeditproduktuawindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3C6FC54-9FDE-4733-9FD6-A7D9A8134897}|Erronka.csproj|d:\\iker\\desktop\\erronkainterfazeak\\erronka\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3C6FC54-9FDE-4733-9FD6-A7D9A8134897}|Erronka.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3C6FC54-9FDE-4733-9FD6-A7D9A8134897}|Erronka.csproj|d:\\iker\\desktop\\erronkainterfazeak\\erronka\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{B3C6FC54-9FDE-4733-9FD6-A7D9A8134897}|Erronka.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3C6FC54-9FDE-4733-9FD6-A7D9A8134897}|Erronka.csproj|d:\\iker\\desktop\\erronkainterfazeak\\erronka\\views\\ticketview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3C6FC54-9FDE-4733-9FD6-A7D9A8134897}|Erronka.csproj|solutionrelative:views\\ticketview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -78,15 +98,180 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AddEditUserWindow.xaml.cs",
+              "DocumentMoniker": "D:\\Iker\\Desktop\\ErronkaInterfazeak\\Erronka\\Views\\AddEditUserWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\AddEditUserWindow.xaml.cs",
+              "ToolTip": "D:\\Iker\\Desktop\\ErronkaInterfazeak\\Erronka\\Views\\AddEditUserWindow.xaml.cs",
+              "RelativeToolTip": "Views\\AddEditUserWindow.xaml.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAgwCEAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-18T09:38:53.968Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Models.cs",
+              "DocumentMoniker": "D:\\Iker\\Desktop\\ErronkaInterfazeak\\Erronka\\Models\\Models.cs",
+              "RelativeDocumentMoniker": "Models\\Models.cs",
+              "ToolTip": "D:\\Iker\\Desktop\\ErronkaInterfazeak\\Erronka\\Models\\Models.cs",
+              "RelativeToolTip": "Models\\Models.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T10:03:31.968Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "AddEditUserWindow.xaml",
+              "DocumentMoniker": "D:\\Iker\\Desktop\\ErronkaInterfazeak\\Erronka\\Views\\AddEditUserWindow.xaml",
+              "RelativeDocumentMoniker": "Views\\AddEditUserWindow.xaml",
+              "ToolTip": "D:\\Iker\\Desktop\\ErronkaInterfazeak\\Erronka\\Views\\AddEditUserWindow.xaml",
+              "RelativeToolTip": "Views\\AddEditUserWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-11-20T15:58:25.579Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ErabiltzaileakView.xaml",
+              "DocumentMoniker": "D:\\Iker\\Desktop\\ErronkaInterfazeak\\Erronka\\Views\\ErabiltzaileakView.xaml",
+              "RelativeDocumentMoniker": "Views\\ErabiltzaileakView.xaml",
+              "ToolTip": "D:\\Iker\\Desktop\\ErronkaInterfazeak\\Erronka\\Views\\ErabiltzaileakView.xaml",
+              "RelativeToolTip": "Views\\ErabiltzaileakView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-11-18T09:36:31.88Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ErabiltzaileakView.xaml.cs",
+              "DocumentMoniker": "D:\\Iker\\Desktop\\ErronkaInterfazeak\\Erronka\\Views\\ErabiltzaileakView.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\ErabiltzaileakView.xaml.cs",
+              "ToolTip": "D:\\Iker\\Desktop\\ErronkaInterfazeak\\Erronka\\Views\\ErabiltzaileakView.xaml.cs",
+              "RelativeToolTip": "Views\\ErabiltzaileakView.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC8AAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-18T09:36:44.603Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "20251120151915_InitialCreate.cs",
+              "DocumentMoniker": "D:\\Iker\\Desktop\\ErronkaInterfazeak\\Erronka\\Migrations\\20251120151915_InitialCreate.cs",
+              "RelativeDocumentMoniker": "Migrations\\20251120151915_InitialCreate.cs",
+              "ToolTip": "D:\\Iker\\Desktop\\ErronkaInterfazeak\\Erronka\\Migrations\\20251120151915_InitialCreate.cs",
+              "RelativeToolTip": "Migrations\\20251120151915_InitialCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-20T15:19:16.102Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "DatabaseContextModelSnapshot.cs",
+              "DocumentMoniker": "D:\\Iker\\Desktop\\ErronkaInterfazeak\\Erronka\\Migrations\\DatabaseContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "Migrations\\DatabaseContextModelSnapshot.cs",
+              "ToolTip": "D:\\Iker\\Desktop\\ErronkaInterfazeak\\Erronka\\Migrations\\DatabaseContextModelSnapshot.cs",
+              "RelativeToolTip": "Migrations\\DatabaseContextModelSnapshot.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwA0AAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-20T15:19:32.891Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "20251120151915_InitialCreate.Designer.cs",
+              "DocumentMoniker": "D:\\Iker\\Desktop\\ErronkaInterfazeak\\Erronka\\Migrations\\20251120151915_InitialCreate.Designer.cs",
+              "RelativeDocumentMoniker": "Migrations\\20251120151915_InitialCreate.Designer.cs",
+              "ToolTip": "D:\\Iker\\Desktop\\ErronkaInterfazeak\\Erronka\\Migrations\\20251120151915_InitialCreate.Designer.cs",
+              "RelativeToolTip": "Migrations\\20251120151915_InitialCreate.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-20T15:33:47.138Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "DatabaseContext.cs",
+              "DocumentMoniker": "D:\\Iker\\Desktop\\ErronkaInterfazeak\\Erronka\\Data\\DatabaseContext.cs",
+              "RelativeDocumentMoniker": "Data\\DatabaseContext.cs",
+              "ToolTip": "D:\\Iker\\Desktop\\ErronkaInterfazeak\\Erronka\\Data\\DatabaseContext.cs",
+              "RelativeToolTip": "Data\\DatabaseContext.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAxwAsAAABOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-17T10:19:34.725Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Erreserbak.xaml.cs",
+              "DocumentMoniker": "D:\\Iker\\Desktop\\ErronkaInterfazeak\\Erronka\\Views\\Erreserbak.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\Erreserbak.xaml.cs",
+              "ToolTip": "D:\\Iker\\Desktop\\ErronkaInterfazeak\\Erronka\\Views\\Erreserbak.xaml.cs",
+              "RelativeToolTip": "Views\\Erreserbak.xaml.cs",
+              "ViewState": "AgIAAFMAAAAAAAAAAAAkwGIAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T09:09:33.322Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "LoginView.xaml.cs",
+              "DocumentMoniker": "D:\\Iker\\Desktop\\ErronkaInterfazeak\\Erronka\\Views\\LoginView.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\LoginView.xaml.cs",
+              "ToolTip": "D:\\Iker\\Desktop\\ErronkaInterfazeak\\Erronka\\Views\\LoginView.xaml.cs",
+              "RelativeToolTip": "Views\\LoginView.xaml.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-20T15:21:07.93Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "LoginView.xaml",
+              "DocumentMoniker": "D:\\Iker\\Desktop\\ErronkaInterfazeak\\Erronka\\Views\\LoginView.xaml",
+              "RelativeDocumentMoniker": "Views\\LoginView.xaml",
+              "ToolTip": "D:\\Iker\\Desktop\\ErronkaInterfazeak\\Erronka\\Views\\LoginView.xaml",
+              "RelativeToolTip": "Views\\LoginView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-11-10T11:28:16.361Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Erreserbak.xaml",
+              "DocumentMoniker": "D:\\Iker\\Desktop\\ErronkaInterfazeak\\Erronka\\Views\\Erreserbak.xaml",
+              "RelativeDocumentMoniker": "Views\\Erreserbak.xaml",
+              "ToolTip": "D:\\Iker\\Desktop\\ErronkaInterfazeak\\Erronka\\Views\\Erreserbak.xaml",
+              "RelativeToolTip": "Views\\Erreserbak.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-11-12T08:13:48.242Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "StockView.xaml.cs",
-              "DocumentMoniker": "D:\\ErronkaInterfazeak\\Erronka\\Views\\StockView.xaml.cs",
+              "DocumentMoniker": "D:\\Iker\\Desktop\\ErronkaInterfazeak\\Erronka\\Views\\StockView.xaml.cs",
               "RelativeDocumentMoniker": "Views\\StockView.xaml.cs",
-              "ToolTip": "D:\\ErronkaInterfazeak\\Erronka\\Views\\StockView.xaml.cs",
+              "ToolTip": "D:\\Iker\\Desktop\\ErronkaInterfazeak\\Erronka\\Views\\StockView.xaml.cs",
               "RelativeToolTip": "Views\\StockView.xaml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAADgAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -95,24 +280,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Models.cs",
-              "DocumentMoniker": "D:\\ErronkaInterfazeak\\Erronka\\Models\\Models.cs",
-              "RelativeDocumentMoniker": "Models\\Models.cs",
-              "ToolTip": "D:\\ErronkaInterfazeak\\Erronka\\Models\\Models.cs",
-              "RelativeToolTip": "Models\\Models.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAzwDEAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-14T10:03:31.968Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 17,
               "Title": "AddEditProduktuaWindow.xaml",
-              "DocumentMoniker": "D:\\ErronkaInterfazeak\\Erronka\\Views\\AddEditProduktuaWindow.xaml",
+              "DocumentMoniker": "D:\\Iker\\Desktop\\ErronkaInterfazeak\\Erronka\\Views\\AddEditProduktuaWindow.xaml",
               "RelativeDocumentMoniker": "Views\\AddEditProduktuaWindow.xaml",
-              "ToolTip": "D:\\ErronkaInterfazeak\\Erronka\\Views\\AddEditProduktuaWindow.xaml",
+              "ToolTip": "D:\\Iker\\Desktop\\ErronkaInterfazeak\\Erronka\\Views\\AddEditProduktuaWindow.xaml",
               "RelativeToolTip": "Views\\AddEditProduktuaWindow.xaml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
@@ -121,11 +293,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 18,
               "Title": "AddEditProduktuaWindow.xaml.cs",
-              "DocumentMoniker": "D:\\ErronkaInterfazeak\\Erronka\\Views\\AddEditProduktuaWindow.xaml.cs",
+              "DocumentMoniker": "D:\\Iker\\Desktop\\ErronkaInterfazeak\\Erronka\\Views\\AddEditProduktuaWindow.xaml.cs",
               "RelativeDocumentMoniker": "Views\\AddEditProduktuaWindow.xaml.cs",
-              "ToolTip": "D:\\ErronkaInterfazeak\\Erronka\\Views\\AddEditProduktuaWindow.xaml.cs",
+              "ToolTip": "D:\\Iker\\Desktop\\ErronkaInterfazeak\\Erronka\\Views\\AddEditProduktuaWindow.xaml.cs",
               "RelativeToolTip": "Views\\AddEditProduktuaWindow.xaml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -134,23 +306,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ErabiltzaileakView.xaml",
-              "DocumentMoniker": "D:\\ErronkaInterfazeak\\Erronka\\Views\\ErabiltzaileakView.xaml",
-              "RelativeDocumentMoniker": "Views\\ErabiltzaileakView.xaml",
-              "ToolTip": "D:\\ErronkaInterfazeak\\Erronka\\Views\\ErabiltzaileakView.xaml",
-              "RelativeToolTip": "Views\\ErabiltzaileakView.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-11-18T09:36:31.88Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 15,
               "Title": "StockView.xaml",
-              "DocumentMoniker": "D:\\ErronkaInterfazeak\\Erronka\\Views\\StockView.xaml",
+              "DocumentMoniker": "D:\\Iker\\Desktop\\ErronkaInterfazeak\\Erronka\\Views\\StockView.xaml",
               "RelativeDocumentMoniker": "Views\\StockView.xaml",
-              "ToolTip": "D:\\ErronkaInterfazeak\\Erronka\\Views\\StockView.xaml",
+              "ToolTip": "D:\\Iker\\Desktop\\ErronkaInterfazeak\\Erronka\\Views\\StockView.xaml",
               "RelativeToolTip": "Views\\StockView.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-11-18T08:58:21.117Z",
@@ -158,11 +318,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 13,
               "Title": "AddEditUserWindow.xaml",
-              "DocumentMoniker": "D:\\ErronkaInterfazeak\\Erronka\\Views\\AddEditUserWindow.xaml",
+              "DocumentMoniker": "D:\\Iker\\Desktop\\ErronkaInterfazeak\\Erronka\\Views\\AddEditUserWindow.xaml",
               "RelativeDocumentMoniker": "Views\\AddEditUserWindow.xaml",
-              "ToolTip": "D:\\ErronkaInterfazeak\\Erronka\\Views\\AddEditUserWindow.xaml",
+              "ToolTip": "D:\\Iker\\Desktop\\ErronkaInterfazeak\\Erronka\\Views\\AddEditUserWindow.xaml",
               "RelativeToolTip": "Views\\AddEditUserWindow.xaml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
@@ -171,23 +331,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Erreserbak.xaml",
-              "DocumentMoniker": "D:\\ErronkaInterfazeak\\Erronka\\Views\\Erreserbak.xaml",
-              "RelativeDocumentMoniker": "Views\\Erreserbak.xaml",
-              "ToolTip": "D:\\ErronkaInterfazeak\\Erronka\\Views\\Erreserbak.xaml",
-              "RelativeToolTip": "Views\\Erreserbak.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-11-12T08:13:48.242Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 16,
               "Title": "TicketView.xaml",
-              "DocumentMoniker": "D:\\ErronkaInterfazeak\\Erronka\\Views\\TicketView.xaml",
+              "DocumentMoniker": "D:\\Iker\\Desktop\\ErronkaInterfazeak\\Erronka\\Views\\TicketView.xaml",
               "RelativeDocumentMoniker": "Views\\TicketView.xaml",
-              "ToolTip": "D:\\ErronkaInterfazeak\\Erronka\\Views\\TicketView.xaml",
+              "ToolTip": "D:\\Iker\\Desktop\\ErronkaInterfazeak\\Erronka\\Views\\TicketView.xaml",
               "RelativeToolTip": "Views\\TicketView.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-11-17T10:08:20.227Z",
@@ -195,99 +343,41 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "ErabiltzaileakView.xaml.cs",
-              "DocumentMoniker": "D:\\ErronkaInterfazeak\\Erronka\\Views\\ErabiltzaileakView.xaml.cs",
-              "RelativeDocumentMoniker": "Views\\ErabiltzaileakView.xaml.cs",
-              "ToolTip": "D:\\ErronkaInterfazeak\\Erronka\\Views\\ErabiltzaileakView.xaml.cs",
-              "RelativeToolTip": "Views\\ErabiltzaileakView.xaml.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAC8AAAA+AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-18T09:36:44.603Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "AddEditUserWindow.xaml.cs",
-              "DocumentMoniker": "D:\\ErronkaInterfazeak\\Erronka\\Views\\AddEditUserWindow.xaml.cs",
-              "RelativeDocumentMoniker": "Views\\AddEditUserWindow.xaml.cs",
-              "ToolTip": "D:\\ErronkaInterfazeak\\Erronka\\Views\\AddEditUserWindow.xaml.cs",
-              "RelativeToolTip": "Views\\AddEditUserWindow.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-18T09:38:53.968Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "DatabaseContext.cs",
-              "DocumentMoniker": "D:\\ErronkaInterfazeak\\Erronka\\Data\\DatabaseContext.cs",
-              "RelativeDocumentMoniker": "Data\\DatabaseContext.cs",
-              "ToolTip": "D:\\ErronkaInterfazeak\\Erronka\\Data\\DatabaseContext.cs",
-              "RelativeToolTip": "Data\\DatabaseContext.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAkAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-17T10:19:34.725Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 21,
               "Title": "TicketView.xaml.cs",
-              "DocumentMoniker": "D:\\ErronkaInterfazeak\\Erronka\\Views\\TicketView.xaml.cs",
+              "DocumentMoniker": "D:\\Iker\\Desktop\\ErronkaInterfazeak\\Erronka\\Views\\TicketView.xaml.cs",
               "RelativeDocumentMoniker": "Views\\TicketView.xaml.cs",
-              "ToolTip": "D:\\ErronkaInterfazeak\\Erronka\\Views\\TicketView.xaml.cs",
+              "ToolTip": "D:\\Iker\\Desktop\\ErronkaInterfazeak\\Erronka\\Views\\TicketView.xaml.cs",
               "RelativeToolTip": "Views\\TicketView.xaml.cs",
               "ViewState": "AgIAAC4AAAAAAAAAAAAgwFUAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-17T09:55:35.083Z"
+              "WhenOpened": "2025-11-17T09:55:35.083Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 19,
               "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "D:\\ErronkaInterfazeak\\Erronka\\MainWindow.xaml.cs",
+              "DocumentMoniker": "D:\\Iker\\Desktop\\ErronkaInterfazeak\\Erronka\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "MainWindow.xaml.cs",
-              "ToolTip": "D:\\ErronkaInterfazeak\\Erronka\\MainWindow.xaml.cs",
+              "ToolTip": "D:\\Iker\\Desktop\\ErronkaInterfazeak\\Erronka\\MainWindow.xaml.cs",
               "RelativeToolTip": "MainWindow.xaml.cs",
-              "ViewState": "AgIAAHIAAAAAAAAAAAAgwH8AAAA5AAAAAAAAAA==",
+              "ViewState": "AgIAAHIAAAAAAAAAAAA3wH8AAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-14T10:00:11.566Z"
+              "WhenOpened": "2025-11-14T10:00:11.566Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 20,
               "Title": "MainWindow.xaml",
-              "DocumentMoniker": "D:\\ErronkaInterfazeak\\Erronka\\MainWindow.xaml",
+              "DocumentMoniker": "D:\\Iker\\Desktop\\ErronkaInterfazeak\\Erronka\\MainWindow.xaml",
               "RelativeDocumentMoniker": "MainWindow.xaml",
-              "ToolTip": "D:\\ErronkaInterfazeak\\Erronka\\MainWindow.xaml",
+              "ToolTip": "D:\\Iker\\Desktop\\ErronkaInterfazeak\\Erronka\\MainWindow.xaml",
               "RelativeToolTip": "MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-11-12T07:10:12.133Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "Erreserbak.xaml.cs",
-              "DocumentMoniker": "D:\\ErronkaInterfazeak\\Erronka\\Views\\Erreserbak.xaml.cs",
-              "RelativeDocumentMoniker": "Views\\Erreserbak.xaml.cs",
-              "ToolTip": "D:\\ErronkaInterfazeak\\Erronka\\Views\\Erreserbak.xaml.cs",
-              "RelativeToolTip": "Views\\Erreserbak.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAE0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-14T09:09:33.322Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "LoginView.xaml",
-              "DocumentMoniker": "D:\\ErronkaInterfazeak\\Erronka\\Views\\LoginView.xaml",
-              "RelativeDocumentMoniker": "Views\\LoginView.xaml",
-              "ToolTip": "D:\\ErronkaInterfazeak\\Erronka\\Views\\LoginView.xaml",
-              "RelativeToolTip": "Views\\LoginView.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-11-10T11:28:16.361Z"
+              "WhenOpened": "2025-11-12T07:10:12.133Z",
+              "EditorCaption": ""
             }
           ]
         }

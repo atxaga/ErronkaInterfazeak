@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Erronka.Models
 {
-    [Table("erreserbak")]
+    [Table("Erreserbak")]
     public class Erreserba
     {
         [Key]
@@ -18,7 +18,7 @@ namespace Erronka.Models
         public string izena { get; set; }  
     }
 
-    [Table("produktuak")]
+    [Table("Produktuak")]
     public class Produktua
     {
         [Key]
@@ -37,11 +37,11 @@ namespace Erronka.Models
         [Key]
         public int id { get; set; }
         [MaxLength(50)]
-        public string Izena { get; set; }
+        public string izena { get; set; }
         [MaxLength(255)]
-        public string Pasahitza { get; set; }
+        public string pasahitza { get; set; }
         [MaxLength(20)]
-        public string Rola { get; set; }
+        public string rola { get; set; }
     }
 
     public class Ticket

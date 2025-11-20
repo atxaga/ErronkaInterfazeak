@@ -21,11 +21,11 @@ namespace Erronka.Views
             using (var db = new DatabaseContext())
             {
                 var user = db.Erabiltzaileak
-                    .FirstOrDefault(u => u.Izena == username && u.Pasahitza == password);
+                    .FirstOrDefault(u => u.izena == username && u.pasahitza == password);
 
                 if (user != null)
                 {
-                    MessageBox.Show($"Ongi etorri, {user.Izena}!", "Login arrakastatsua",
+                    MessageBox.Show($"Ongi etorri, {user.izena}!", "Login arrakastatsua",
                         MessageBoxButton.OK, MessageBoxImage.Information);
                     ErreserbakWindow erreserbak = new ErreserbakWindow(user.id);
 

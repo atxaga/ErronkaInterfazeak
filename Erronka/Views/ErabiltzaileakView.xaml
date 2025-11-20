@@ -19,9 +19,9 @@
                   IsReadOnly="True"
                   Margin="0,10">
             <DataGrid.Columns>
-                <DataGridTextColumn Header="ID" Binding="{Binding Id}" Width="60"/>
-                <DataGridTextColumn Header="Izena" Binding="{Binding Izena}" Width="*"/>
-                <DataGridTextColumn Header="Rola" Binding="{Binding Rola}" Width="120"/>
+                <DataGridTextColumn Header="ID" Binding="{Binding id}" Width="60"/>
+                <DataGridTextColumn Header="Izena" Binding="{Binding izena}" Width="*"/>
+                <DataGridTextColumn Header="Rola" Binding="{Binding rola}" Width="120"/>
             </DataGrid.Columns>
         </DataGrid>
 
