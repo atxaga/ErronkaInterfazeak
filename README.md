@@ -8,7 +8,7 @@ Aplikazioa ejekutatzeko pausoak:
 
 <img width="891" height="639" alt="image" src="https://github.com/user-attachments/assets/41480459-aa85-445b-9616-4807872fabef" />
 
--Karpetan dagoen docker compose-a ejekutatu "docker compose up" eta adminer-en sartu
+-Karpetan dagoen docker compose-a ejekutatu "docker compose up" eta adminer-en sartu(nabegagailua localhost:8080)
 
 -Irudian dauden datuak sartu pasahitza=tpv
 
