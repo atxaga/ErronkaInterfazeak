@@ -24,35 +24,65 @@ namespace Erronka
     public partial class MainWindow : Window
     {
         private int userId;
+        private string userRole;
         private ObservableCollection<Ticket> ticketItems = new ObservableCollection<Ticket>();
         private readonly DatabaseContext _context = new DatabaseContext();
         private ObservableCollection<Produktua> _produktuak = new ObservableCollection<Produktua>();
         private TicketView ticketView;
 
 
-        public MainWindow(int loggedUserId)
+        public MainWindow(int loggedUserId, string role)
         {
             InitializeComponent();
             userId = loggedUserId;
+            userRole = role;
             
             ticketView = new TicketView();
             MainContent.Content = ticketView;
+
+            ApplyRoleRestrictions();
+
             CategoryList.SelectionChanged += CategoryList_SelectionChanged;
+        }
+
+        private void ApplyRoleRestrictions()
+        {
+            bool isAdmin = string.Equals(userRole, "admin", StringComparison.OrdinalIgnoreCase);
+
+            if (!isAdmin)
+            {
+                if (BtnBiltegia != null) BtnBiltegia.IsEnabled = false;
+                if (BtnErabiltzaileak != null) BtnErabiltzaileak.IsEnabled = false;
+            }
+        }
+
+        private bool CheckAdminAccess(string featureName)
+        {
+            bool isAdmin = string.Equals(userRole, "admin", StringComparison.OrdinalIgnoreCase);
+            if (!isAdmin)
+            {
+                MessageBox.Show($"Ezin da sartu: {featureName}. Admin rola behar da.", "Sarbidea ukatua",
+                    MessageBoxButton.OK, MessageBoxImage.Warning);
+            }
+            return isAdmin;
         }
 
         private void Button_Erreserbak_Click(object sender, RoutedEventArgs e)
         {
+            
             ErreserbakWindow win = new ErreserbakWindow(userId);
             win.Show();
         }
 
         private void Button_Stock_Click(object sender, RoutedEventArgs e)
         {
+            if (!CheckAdminAccess("Biltegia")) return;
             MainContent.Content = new Views.StockView();
         }
 
         private void Button_Erabiltzaileak_Click(object sender, RoutedEventArgs e)
         {
+            if (!CheckAdminAccess("Erabiltzaileak")) return;
             MainContent.Content = new Views.ErabiltzaileakView();
         }
 

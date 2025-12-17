@@ -4,16 +4,16 @@
 winexe
 C#
 .cs
-D:\Iker\Desktop\ErronkaInterfazeak\Erronka\obj\Debug\net8.0-windows\
+D:\ErronkaInterfazeak\Erronka\obj\Debug\net8.0-windows\
 Erronka
 none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP;WINDOWS;WINDOWS7_0;NET5_0_OR_GREATER;NET6_0_OR_GREATER;NET7_0_OR_GREATER;NET8_0_OR_GREATER;NETCOREAPP3_0_OR_GREATER;NETCOREAPP3_1_OR_GREATER;WINDOWS7_0_OR_GREATER
-D:\Iker\Desktop\ErronkaInterfazeak\Erronka\App.xaml
+D:\ErronkaInterfazeak\Erronka\App.xaml
 8199351544
 
 241037346013
-221195604902
+221226573474
 MainWindow.xaml;Views\AddEditProduktuaWindow.xaml;Views\AddEditUserWindow.xaml;Views\ErabiltzaileakView.xaml;Views\Erreserbak.xaml;Views\LoginView.xaml;Views\StockView.xaml;Views\TicketView.xaml;
 
 False

@@ -29,7 +29,7 @@ namespace Erronka.Views
                         MessageBoxButton.OK, MessageBoxImage.Information);
                     ErreserbakWindow erreserbak = new ErreserbakWindow(user.id);
 
-                    MainWindow main = new MainWindow(user.id);
+                    MainWindow main = new MainWindow(user.id, user.rola);
                     main.Show();
                     this.Close();
                 }

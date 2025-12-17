@@ -20,10 +20,10 @@
         </Grid.RowDefinitions>
 
         <StackPanel Grid.Column="0" VerticalAlignment="Center" HorizontalAlignment="Center">
-            <Button Content="📅 Ticket" Width="180" Height="60" Background="#2E3A59" Foreground="White" FontSize="18" Click="Button_Ticket_Click"/>
-            <Button Content="📅 Erreserbak" Width="180" Height="60" Background="#2E3A59" Foreground="White" FontSize="18" Click="Button_Erreserbak_Click"/>
-            <Button Content="📦 Biltegia" Width="180" Height="60" Background="#2E3A59" Foreground="White" FontSize="18" Click="Button_Stock_Click"/>
-            <Button Content="👥 Erabiltzaileak" Width="180" Height="60" Background="#2E3A59" Foreground="White" FontSize="18" Click="Button_Erabiltzaileak_Click"/>
+            <Button x:Name="BtnTicket" Content="📅 Ticket" Width="180" Height="60" Background="#2E3A59" Foreground="White" FontSize="18" Click="Button_Ticket_Click"/>
+            <Button x:Name="BtnErreserbak" Content="📅 Erreserbak" Width="180" Height="60" Background="#2E3A59" Foreground="White" FontSize="18" Click="Button_Erreserbak_Click"/>
+            <Button x:Name="BtnBiltegia" Content="📦 Biltegia" Width="180" Height="60" Background="#2E3A59" Foreground="White" FontSize="18" Click="Button_Stock_Click"/>
+            <Button x:Name="BtnErabiltzaileak" Content="👥 Erabiltzaileak" Width="180" Height="60" Background="#2E3A59" Foreground="White" FontSize="18" Click="Button_Erabiltzaileak_Click"/>
         </StackPanel>
         
         <ContentControl x:Name="MainContent"
