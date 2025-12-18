@@ -1,4 +1,4 @@
-# ErronkaInterfazeak
+<img width="690" height="439" alt="image" src="https://github.com/user-attachments/assets/70f82bfe-3866-432c-b6bc-b53dd6e9db52" /># ErronkaInterfazeak
 
 Aplikazioa ejekutatzeko pausoak:
 
@@ -20,5 +20,11 @@ Aplikazioa ejekutatzeko pausoak:
 <img width="674" height="472" alt="image" src="https://github.com/user-attachments/assets/3706f345-45fe-49d0-832b-7d7b15f1025e" />
 
 -"DatuBaseaEjekutatzeko" Fitxategian dagoena kopiatu eta adminer-en tpv-datu basean ejekutatu eta dena prest dago aplikazioa erabiltzako
+
+<img width="690" height="439" alt="Captura de pantalla 2025-12-18 102230" src="https://github.com/user-attachments/assets/52cef213-82d6-4632-8e0f-c8222f3d1c9c" />
+
+<img width="622" height="819" alt="image" src="https://github.com/user-attachments/assets/c8545130-4bda-409a-bb07-45ad22999f0a" />
+
+
 
 
