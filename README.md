@@ -10,7 +10,10 @@ Aplikazioa ejekutatzeko pausoak:
 
 -Karpetan dagoen docker compose-a ejekutatu "docker compose up" eta adminer-en sartu(nabegagailua localhost:8080)
 
--Irudian dauden datuak sartu pasahitza=tpv
+-Datu basea= PostgreSQL
+-Pasahitza=tpv
+-DatuBasea = tpv_sistema
+
 
 <img width="674" height="472" alt="image" src="https://github.com/user-attachments/assets/3706f345-45fe-49d0-832b-7d7b15f1025e" />
 
