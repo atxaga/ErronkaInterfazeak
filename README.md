@@ -1,4 +1,4 @@
-<img width="690" height="439" alt="image" src="https://github.com/user-attachments/assets/70f82bfe-3866-432c-b6bc-b53dd6e9db52" /># ErronkaInterfazeak
+# ErronkaInterfazeak
 
 Aplikazioa ejekutatzeko pausoak:
 
