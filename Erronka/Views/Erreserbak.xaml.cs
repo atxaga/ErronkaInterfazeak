@@ -12,7 +12,7 @@ namespace Erronka.Views
     {
         private int mesaSeleccionada = 0;
         private readonly DatabaseContext _context;
-        private int usuarioId; 
+        private int usuarioId;
 
         public ErreserbakWindow(int loggedUserId)
         {
@@ -53,7 +53,7 @@ namespace Erronka.Views
 
             bool existe = _context.Erreserbak.Any(r =>
                 r.mahi_id == mesaSeleccionada &&
-                r.data == fecha &&  
+                r.data == fecha &&
                 r.mota == turno);
 
             if (existe)
@@ -67,7 +67,7 @@ namespace Erronka.Views
                 mahi_id = mesaSeleccionada,
                 erabiltzaile_id = usuarioId,
                 izena = cliente,
-                data = fecha,  
+                data = fecha,
                 mota = turno
             };
 
@@ -95,7 +95,6 @@ namespace Erronka.Views
                 {
                     int mesa = int.Parse(btn.Tag.ToString());
 
-                    // Solo mira reservas para la fecha y el turno actual
                     bool reservadaEnTurno = _context.Erreserbak.Any(r =>
                         r.mahi_id == mesa &&
                         r.data == fecha &&

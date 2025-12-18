@@ -88,7 +88,7 @@ namespace Erronka
 
         private void Button_Ticket_Click(object sender, RoutedEventArgs e)
         {
-            MainContent.Content = new Views.TicketView();
+            MainContent.Content = ticketView;
         }
 
         private void CategoryList_SelectionChanged(object sender, SelectionChangedEventArgs e)
@@ -144,14 +144,13 @@ namespace Erronka
 
         private void KantitateaAldatu(object sender, RoutedEventArgs e)
         {
-            // StockViewrako kodea
+            
             if (int.TryParse(Emaitza.Text, out int number))
             {
                 
                 this.Tag = number;
             }
 
-            // TicketViewrako kodea
             var main = Application.Current.Windows.OfType<MainWindow>().FirstOrDefault();
             if (main != null && main.ticketView != null)
             {

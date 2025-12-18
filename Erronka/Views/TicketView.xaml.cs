@@ -1,18 +1,19 @@
-﻿using System;
+﻿using Erronka.Data;
+using Erronka.Models;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.Win32;
+using PdfSharp.Drawing;
+using PdfSharp.Fonts;
+using PdfSharp.Pdf;
+using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using System.Windows.Controls;
-using Erronka.Models;
-using PdfSharp.Pdf;
-using PdfSharp.Drawing;
-using Microsoft.Win32;
-using System.Diagnostics;
-using PdfSharp.Fonts;
 using System.Windows;
-using Erronka.Data;
+using System.Windows.Controls;
 
 namespace Erronka.Views
 {
@@ -81,7 +82,6 @@ namespace Erronka.Views
         {
             if (ticketItems.Count == 0) return;
 
-            // Validar stock antes de generar/imprimir
             using (var db = new DatabaseContext())
             {
                 var ids = ticketItems.Select(t => t.id).Distinct().ToList();
@@ -105,18 +105,15 @@ namespace Erronka.Views
                     }
                 }
 
-                // Generar PDF
                 PdfDocument document = new PdfDocument();
                 document.Info.Title = "Ticket TPV";
-
-                PdfPage page = document.AddPage();
-                XGraphics gfx = XGraphics.FromPdfPage(page);
+                var page = document.AddPage();
+                var gfx = XGraphics.FromPdfPage(page);
                 GlobalFontSettings.UseWindowsFontsUnderWindows = true;
                 var font = new XFont("Arial", 10, XFontStyleEx.Regular);
-                XFont fontBold = new XFont("Arial", 10, XFontStyleEx.Bold);
+                var fontBold = new XFont("Arial", 10, XFontStyleEx.Bold);
 
                 double y = 20;
-
                 gfx.DrawString("Elkartea TPV Ticket", fontBold, XBrushes.Black, new XRect(0, y, page.Width, 20), XStringFormats.TopCenter);
                 y += 40;
 
@@ -140,19 +137,22 @@ namespace Erronka.Views
                 y += 20;
                 gfx.DrawString("TOTAL: " + total.ToString("0.00") + " €", fontBold, XBrushes.Black, 20, y);
 
-                SaveFileDialog saveFileDialog = new SaveFileDialog();
-                saveFileDialog.Filter = "PDF file|*.pdf";
-                saveFileDialog.FileName = "Ticket.pdf";
+                var saveFileDialog = new SaveFileDialog
+                {
+                    Filter = "PDF file|*.pdf",
+                    FileName = "Ticket.pdf"
+                };
                 if (saveFileDialog.ShowDialog() == true)
                 {
                     document.Save(saveFileDialog.FileName);
                     Process.Start(new ProcessStartInfo(saveFileDialog.FileName) { UseShellExecute = true });
 
-                    // Descontar del stock tras "pago"
                     foreach (var item in ticketItems)
                     {
                         var prod = productos[item.id];
                         prod.stock -= item.Kantitatea;
+
+                        db.Entry(prod).Property(p => p.stock).IsModified = true;
                     }
 
                     try
@@ -163,6 +163,11 @@ namespace Erronka.Views
 
                         ticketItems.Clear();
                         OrderItemsGrid.Items.Refresh();
+                    }
+                    catch (DbUpdateException ex)
+                    {
+                        MessageBox.Show($"DB eguneratze-errorea: {ex.InnerException?.Message ?? ex.Message}", "Errorea",
+                            MessageBoxButton.OK, MessageBoxImage.Error);
                     }
                     catch (Exception ex)
                     {
